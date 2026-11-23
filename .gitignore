@@ -15,8 +15,6 @@ backend/logs/
 *.sqlite3
 
 # Large model artifacts
-*.pt
-*.pth
 *.onnx
 *.bin
 
