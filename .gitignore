@@ -1,0 +1,31 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Backend secrets and runtime data
+backend/.env
+backend/data/
+backend/logs/
+*.db
+*.sqlite
+*.sqlite3
+
+# Large model artifacts
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
